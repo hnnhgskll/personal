@@ -1,0 +1,29 @@
+#container{
+	margin:0 auto;
+	padding-bottom: 50px;
+	max-width: 960px;
+	width: 100%;
+	text-align: center;
+	}
+
+  .headline{
+    font-family: 'League Script', cursive;
+    font-size: 3em;
+  }
+
+  .subline{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight:100;
+  }
+
+  .year{
+    font-family: 'League Script', cursive;
+    font-size: 2.5em;
+  }
+
+  .listtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight:100;
+  }

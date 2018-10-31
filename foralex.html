@@ -1,26 +1,332 @@
 <!DOCTYPEhtml>
+
+<html lang="en">
+
 <html>
 <head>
+<!--BOOTSTRAP CALL IN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+  integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!--call to css-->
+    <link rel="stylesheet" href="style.css">
+  <!--C3JS Call-ins-->
+    <!-- Load c3.css -->
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.css" rel="stylesheet">
+        <!-- Load d3.js and c3.js -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.6.8/c3.min.js"></script>
+<!--GOOGLE FONT-->
+<link href="https://fonts.googleapis.com/css?family=League+Script|Roboto:300" rel="stylesheet">
+
+  <meta name="description" content="Bootstrap template">
+  <meta name="author" content="Hannah Gaskill">
+
+
     <title>Sweet Dreams 'n Baldy Beans</title>
-    <h1>Sweet Dreams 'n Baldy Beans</h1>
-      <h2>A collection of love and collaboration<h2>
-        <img src="main.jpg" alt="Hannah and Alex" width="300px">
+
 </head>
 
 <body>
-  <h3>no~vember~</h3>
-    <h4>November 2014</h4>
-      <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/4yzVgx6oVJo0m4En6Yf40G"
-      width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<!--I built this myself-->
 
-  <h3>decemburr</h3>
-    <h4>December 2014</h4>
-      <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/7FZ6Y1cnnQoss7td16BaPo"
-      width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<div id=container>
 
-  <h3>jenwery*:'')</h3>
-    <h4>January 2015</h4>
-      <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/36RdXSAFm8E1EsJ11wovVU"
-      width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<!-- NavBar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- Link -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <!-- End Link -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+ <!-- End NavBar -->
+
+<!--HEADLINE-->
+  <div class="headline">Sweet Dreams 'n Baldy Beans</div>
+<!--SUBLINE-->
+    <div class="subline">A collaborative archive to Alex from Hannah</div>
+      <img src="main.jpg" alt="Hannah and Alex" width="300px">
+
+<!--2014-->
+
+<div class="row">
+        <div class="col-md-12" align="center"><div class="text"><div class=year>2014</div></div></div></div>
+
+<div class="row">
+        <div class="col-md-6" align="center"><div class="text"><div class="listtitle">no~vember~</div><br>November 2014<br>
+              <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/4yzVgx6oVJo0m4En6Yf40G"
+              width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+        <div class="col-md-6" align="center"><div class="text"><div class="listtitle">decemburr</div><br>December 2014<br>
+            <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/7FZ6Y1cnnQoss7td16BaPo"
+            width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+<!--2015-->
+
+<div class="row">
+        <div class="col-md-12" align="center"><div class="text"><div class=year>2015</div></div></div></div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">jenwery*:'')</div><br>January 2015<br>
+        <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/36RdXSAFm8E1EsJ11wovVU"
+        width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">fEbRuArY</div><br>February 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/1Y7X0klIvxBMLvlqRiiAME"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">marchiachi</div><br>March 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/1xihM62BRvtTWII1KSg2mT"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Can I borrow your st-April-er?</div><br>April 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/0tziYxRKY8pSSL8dzTYzHn"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Chill as fuck but sometimes not May</div><br>May 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/5CwLAPFwIRj4laESY7mdZl"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">adjoonct professor</div><br>June 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/6C7iFpGFZRSqh9hz2oXqx7"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">July is for poopasses</div><br>July 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/1aLKsyCiHVsuHOesf1m1hu"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">go suck a boob, august</div><br>August 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/5WyISRgDtQK01GoME1qE9D"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">fuck yu septembr</div><br>September 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/14X4KP8eYa3l2GON2QwTUR"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">FINE I'LL DO IT OCTOBER</div><br>October 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/66pyUjbXlr9SL5jBFFDpf7"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">it's november and i'm an idiot</div><br>November 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/5XQaTrCIidYQDekUkfslCo"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Hannah is a perfect angel December***</div><br>December 2015<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/1Hd31nFwl2rrMTWVbme4GJ"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<!--2016-->
+
+<div class="row">
+        <div class="col-md-12" align="center"><div class="text"><div class="year">2016</div></div></div></div>
+
+<div class="row">
+  <div class="col-md-6" align="center"><div class="text"><div class="listtitle">new year new mom</div><br>January 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/6eHNw5Nt6shDcBAC5ZrzS4"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-6" align="center"><div class="text"><div class="listtitle">fuckbruary</div><br>February 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/3JG6MGwNVwT1fACxQG7mQU"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">who the fuck is gonna make the march playlist, huh?</div><br>March 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/0K1V1aTuMvAiRz2Hhx9CHO"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">gaypril fools</div><br>April 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/1iDCmVdGj91ElI4cRmB1X9"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Yes, you May kiss me</div><br>May 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/6a9Rkb0K43iTyMjfyumvWO"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"> </div></div>
+  <div class="col-md-4" align="center"><div class="text">the lost months</div></div>
+  <div class="col-md-4" align="center"><div class="text"> </div></div>
+</div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">can i august w u??</div><br>August 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/7jJg00TjzH8GgXgJNtLevN"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Gay for September</div><br>September 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/6MbQkv5NtRwXyrLmRotXjg"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">oct(ober)pus(sy)</div><br>October 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/5HbHcnOry5wzeeYy02OWOt"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6" align="center"><div class="text"><div class="listtitle">nomenber</div><br>November 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/2V4DgPaOSQuljJTb4LCq26"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-6" align="center"><div class="text"><div class="listtitle">decemboii</div><br>December 2016<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/4KVQ0zL8MndkPlBhQDlhab"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+<!--2017-->
+
+<div class="row">
+        <div class="col-md-12" align="center"><div class="text"><div class=year>2017</div></div></div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Let's make a plan-uary</div><br>January 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/2RWFzn0y4kEfrXRAMEVnuH"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">feb-*i only wanna be with U*-ary</div><br>February 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/31UIq5D4DsOVtML2qrBzSj"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">The Golden Marches</div><br>March 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/5wvDQVpH2UbC08jj0f6IbR"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">i'm all over you like ugly on an ap(e)ril</div><br>April 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/0jYqJZnOChcKz0LvjG5WW6"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">may uhhh gay uhhh slay uhhh K.</div><br>May 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/4dz4WWR8Hh0WLCygAEwG8v"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">en-june-in my time w u, boii</div><br>June 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/1quObM22spCVKd33HObZE1"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Did July to my face? Why'd July to my face??</div><br>July 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/6IckXyV6ceSGNy4PmtuS4V"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">augie doggy and his dear old dad</div><br>August 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/01flJlaGU2vS3010FYtnkZ"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">A home well kept-ember</div><br>September 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/16n72GHdSpEnq5yATLj7L1"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">octboneber</div><br>October 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/0LvhE3Gioj6iR1gtanvgnP"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">nnnooovvveeemmmbbbeeerrr</div><br>November 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/3QYpTdjTQY1TwiVIOhXJs9"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">decebber</div><br>December 2017<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/3oXWU8qVCVhTlvuytF5Uvn"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<!--2018-->
+
+<div class="row">
+        <div class="col-md-12" align="center"><div class="text"><div class=year>2018</div></div></div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Panuary 2018!!</div><br>January 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/0CSz3ZLoTBdIxfGkkbPZvi"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">febu-i'm-a-big-fucking-idiot-ary</div><br>February 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/2DO56KFxh3nuQkSioVDhDc"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Aguas de Marcho</div><br>March 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/4N0Wv1YWg5os46023Yqrme"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">let me hit that sweet vaperil</div><br>April 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/75ZrWac9TuArciejZDk2sr"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Funny May-May (Meme)</div><br>May 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/40pemoZbfYJLnwlx9kj6a5"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">revvin my enjune VROOM VROOM</div><br>June 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/6VeH5jVNi1E5GAr9dNkpUr"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<div class="row">
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">Jewel-eye</div><br>July 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/5yRw9t29ZGvLngAKaGgIOI"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">luncheon of the boating party by pierrre AUGUSTE renoir</div><br>August 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/1MF3huYucUtQTtajqT1uua"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+  <div class="col-md-4" align="center"><div class="text"><div class="listtitle">septebber</div><br>September 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1258077275/playlist/4YXwCnXkVZmYhjuinkU9hR"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+<div class="row">
+  <div class="col-md-12" align="center"><div class="text"><div class="listtitle">croctober</div><br>October 2018<br>
+  <iframe src="https://open.spotify.com/embed/user/1263449612/playlist/6mNAXklY3SbZ0c3T0xH1ca"
+  width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div></div>
+</div>
+
+
+
+
+<!--FOOTER-->
+  <div class="footer"><footer>
+    Footer Text
+  </footer></div>
+
+ <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+  crossorigin="anonymous"></script>
+</div>
+
+
+<!-- c3 script-->
+<script type="text/javascript">
+
+</script>
+</div>
+</body>
 
 </html>
