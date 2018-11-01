@@ -1,3 +1,9 @@
+
+body{
+    background-color: white;
+    background-image: linear-gradient(#ffffff, #5E94E8);
+}
+
 #container{
 	margin:0 auto;
 	padding-bottom: 50px;
@@ -5,6 +11,12 @@
 	width: 100%;
 	text-align: center;
 	}
+
+
+.bground{
+	background-color: rgba(255, 208, 205, .5);
+	width: 325px;
+}
 
   .headline{
     font-family: 'League Script', cursive;
@@ -27,3 +39,20 @@
     font-size: 12px;
     font-weight:100;
   }
+
+	.date{
+		font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    font-weight:100;
+		font-style: italic;
+	}
+
+	.col{
+		color: #f2eec3;
+	}
+
+	.footer{
+		font-family: 'League Script', cursive;
+    font-size: 1.5em;
+		color: #f2eec3
+	}
