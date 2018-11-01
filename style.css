@@ -18,6 +18,10 @@ body{
 	width: 325px;
 }
 
+#music {
+  display:none;
+}
+
   .headline{
     font-family: 'League Script', cursive;
     font-size: 3em;
